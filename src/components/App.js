@@ -16,13 +16,26 @@ const App = () => {
   const handleForm = (ev) => {
     ev.preventDefault();
   };
+  const handleReset = () => {
+    setSearchIndustry('all');
+  };
   const handleSearchIndustry = (ev) => {
     setSearchIndustry(ev.currentTarget.value);
   };
-  const filterIndustryData = data.filter(
-    (industryTipe) =>
-      searchIndustry === 'all' || industryTipe.industry === searchIndustry
-  );
+  const filterIndustryData = data
+    .filter(
+      (industryTipe) =>
+        searchIndustry === 'all' || industryTipe.industry === searchIndustry
+    )
+    .sort((a, b) => {
+      if (a.name > b.name) {
+        return 1;
+      } else if (a.name < b.name) {
+        return -1;
+      } else {
+        return 0;
+      }
+    });
   return (
     <>
       <Filters
@@ -30,14 +43,8 @@ const App = () => {
         handleForm={handleForm}
         searchIndustry={searchIndustry}
         handleSearchIndustry={handleSearchIndustry}
+        handleReset={handleReset}
       />
-      {/* <select>
-        {data.response.map((item, i) => {
-          <option key={i} value={item.industry}>
-            {item.industry}
-          </option>;
-        })} */}
-      {/* </select> */}
       <CompanyList data={filterIndustryData} />
     </>
   );

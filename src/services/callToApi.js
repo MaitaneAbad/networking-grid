@@ -6,12 +6,12 @@ const callToApi = () => {
     .then((json) => {
       const companies = json.map((data) => {
         return {
-          name: data.name,
-          founded: data.founded,
+          name: data.name === null ? 'Desconocido' : data.name,
+          founded: data.founded === null ? 'Desconocido' : data.founded,
           id: data.id,
-          industry: data.industry,
-          size: data.size,
-          website: data.website,
+          industry: data.industry === null ? data.id : data.industry,
+          size: data.size === null ? 'Desconocido' : data.size,
+          website: data.website === null ? 'Desconocido' : data.website,
         };
       });
       return companies;
