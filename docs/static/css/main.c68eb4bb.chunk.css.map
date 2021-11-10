@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/styles/App.scss","webpack://src/styles/layout/main.scss"],"names":[],"mappings":"AAAA,EACE,eAAgB,CCDlB,aACE,qBAAuB,CACvB,oBAAqB","file":"main.c68eb4bb.chunk.css","sourcesContent":["* {\r\n  list-style: none;\r\n}\r\n",".companyList {\r\n  border: 3px black solid;\r\n  text-decoration: none;\r\n}\r\n"]}
