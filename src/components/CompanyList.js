@@ -1,22 +1,11 @@
 import '../styles/layout/main.scss';
+import CompanyCard from './CompanyCard';
 const CompanyList = (props) => {
   const list = props.data.map((companyData, i) => {
-    console.log(i);
-    console.log(companyData.website);
-
     return (
       <>
         <li className='companyList' key={i}>
-          <p>{companyData.name}</p>
-          <p>{companyData.size}</p>
-          <p>{companyData.founded}</p>
-          <a
-            target='_blank'
-            rel='noreferrer'
-            href={'http://' + companyData.website}
-          >
-            {companyData.website}
-          </a>
+          <CompanyCard companyData={companyData} />
         </li>
       </>
     );

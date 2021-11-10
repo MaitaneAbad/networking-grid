@@ -14,9 +14,10 @@ const callToApi = () => {
           website: data.website,
         };
       });
-      console.log(companies);
-
       return companies;
+    })
+    .catch((error) => {
+      console.log(error);
     });
 };
 
