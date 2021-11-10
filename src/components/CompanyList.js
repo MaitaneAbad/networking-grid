@@ -1,13 +1,12 @@
-import '../styles/layout/main.scss';
+import '../styles/layout/companyList.scss';
 import CompanyCard from './CompanyCard';
+
 const CompanyList = (props) => {
   const list = props.data.map((companyData) => {
     return (
-      <>
-        <li className='companyList' key={companyData.id}>
-          <CompanyCard companyData={companyData} />
-        </li>
-      </>
+      <li className='list__card' key={companyData.id}>
+        <CompanyCard companyData={companyData} />
+      </li>
     );
   });
   return (

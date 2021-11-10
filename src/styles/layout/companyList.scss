@@ -1,0 +1,67 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  justify-content: center;
+  align-content: space-between;
+  margin: 10px auto;
+  &__card {
+    border: 1px red solid;
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    &--item {
+      border: indigo 2px solid;
+      &__name {
+        margin: 5px;
+        text-align: center;
+      }
+      &__year {
+        text-align: end;
+        margin: 5px;
+      }
+    }
+
+    &--characteristics {
+      border: rgb(131, 4, 67) 2px solid;
+      &__industry {
+        margin: 5px;
+        border: hotpink 2px solid;
+        padding: 5px;
+        border-radius: 7%;
+      }
+      &__size {
+        text-align: end;
+        margin: 10px 5px;
+        border: hotpink 2px solid;
+        padding: 5px;
+        border-radius: 7%;
+        background-color: rgb(243, 171, 207);
+        &:hover {
+          background-color: rgb(236, 144, 190);
+        }
+      }
+      @media (min-width: 768px) {
+        display: flex;
+      }
+    }
+
+    &--link {
+      text-align: center;
+      padding: 2px;
+      border: 1px rgb(57, 92, 5) solid;
+      border-radius: 20%;
+      width: 35%;
+      margin: 5px auto;
+      background-color: rgb(68, 187, 64);
+      &:hover {
+        background-color: rgb(127, 236, 132);
+      }
+      &:visited {
+        background-color: rgb(151, 226, 155);
+      }
+    }
+  }
+}
