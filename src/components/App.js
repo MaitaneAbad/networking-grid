@@ -31,6 +31,13 @@ const App = () => {
         searchIndustry={searchIndustry}
         handleSearchIndustry={handleSearchIndustry}
       />
+      {/* <select>
+        {data.response.map((item, i) => {
+          <option key={i} value={item.industry}>
+            {item.industry}
+          </option>;
+        })} */}
+      {/* </select> */}
       <CompanyList data={filterIndustryData} />
     </>
   );

@@ -1,6 +1,7 @@
 import '../styles/layout/main.scss';
 import CompanyCard from './CompanyCard';
 const CompanyList = (props) => {
+  console.log(props.data.name);
   const list = props.data.map((companyData, i) => {
     return (
       <>
@@ -15,7 +16,7 @@ const CompanyList = (props) => {
       {props.data.length !== 0 ? (
         <ul className='list'>{list}</ul>
       ) : (
-        <p>{`No exite ningun tipo de empresa con este filtro: ${props.data.name}.`}</p>
+        <p>{`No exite ningun tipo de empresa con ese filtro.`}</p>
       )}
     </>
   );

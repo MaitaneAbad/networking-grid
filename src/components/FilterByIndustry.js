@@ -1,15 +1,21 @@
 const FilterByIndustry = (props) => {
+  console.log(props.data.industry !== null);
   const industryTipe = props.data.map((companyData, i) => {
+    console.log(!companyData.industry);
     return (
-      <option key={i} value={companyData.industry}>
-        {companyData.industry}
-      </option>
+      <input
+        type='button'
+        value={companyData.industry}
+        key={i}
+        onClick={props.handleSearchIndustry}
+      />
     );
   });
+
   return (
     <>
-      <label htmlFor='industry' className='labelName'>
-        Especie
+      {/* <label htmlFor='industry' className='labelName'>
+        Industria
       </label>
       <select
         className='selectSpecies'
@@ -20,7 +26,8 @@ const FilterByIndustry = (props) => {
       >
         <option value='all'>Todos</option>
         <>{industryTipe}</>
-      </select>
+      </select> */}
+      {industryTipe}
     </>
   );
 };
