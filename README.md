@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Maitane Abad</h1>
-<h2>Hi 👋, Networking-Grid</h2>
+<h2>Networking-Grid</h2>
 
-<h3 text-transform="uppercase">Hackaton JOBMadrid</h3>
+<h3>HACKATON JOBMADRID</h3>
 
 Este proyecto consiste en un portal de búsqueda con de distinta informacíon de distintas empresas. En el listado aparece su tamaño, nombre, año de fundación...
 
