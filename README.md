@@ -1,12 +1,12 @@
 <h1 align="center">Hi 👋, I'm Maitane Abad</h1>
-<h2>Networking-Grid</h2>
+# Networking-Grid
 
-<h3>HACKATON JOBMADRID</h3>
+# HACKATON JOBMADRID
 Este proyecto consiste en un portal de búsqueda con de distinta informacíon de distintas empresas. En el listado aparece su tamaño, nombre, año de fundación...
 
 This project consists of a search portal with different information about different companies. The list shows their size, name, year of foundation...
 
-### Información importante ⚠️ / Important information ⚠️
+# Información importante ⚠️ / Important information ⚠️
 Debido a un problema con las cors de la url del hackaton, el fetch no funciona si tienes activada la seguridad del navegador. Si usas la extensión de Google Chrome llamada `Allow CORS: Access-Control-Allow-Origin `
 
 _Extensión_ [Descargar](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=es)
@@ -16,21 +16,21 @@ Due to a problem with the hackathon url cors, the fetch does not work if you hav
 
 _Extension_ [Download](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=es)
 
-### Calidad de código 💎 / Code quality 💎
+# Calidad de código 💎 / Code quality 💎
 
 Utilizando Codefactor ya que tenía que añadir la calidad del código, la calidad del código es: <a href="https://www.codefactor.io/repository/github/maitaneabad/networking-grid"><img src="https://www.codefactor.io/repository/github/maitaneabad/networking-grid/badge" alt="CodeFactor" /></a>
 
 
 Using Codefactor as I had to add the code quality, the code quality is: <a href="https://www.codefactor.io/repository/github/maitaneabad/networking-grid"><img src="https://www.codefactor.io/repository/github/maitaneabad/networking-grid/badge" alt="CodeFactor" /></a>
 
-### Comenzando 🚀 / Starting 🚀
+# Comenzando 🚀 / Starting 🚀
 
 Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
 
 These instructions will allow you to get a working copy of the project on your local machine for development and testing purposes.
 
-#### Pre-requisitos 📋 / Prerequisites 📋
+### Pre-requisitos 📋 / Prerequisites 📋
 
 _¿Que necesitas para instalar el software?_
 
@@ -41,7 +41,7 @@ _What do you need to install the software?_
 
     You need to have installed Node JS
 
-##### Instalación 🔧 / Installation 🔧
+### Instalación 🔧 / Installation 🔧
 
 - Descargar este repositorio en zip o clonar el repositorio en tu dispositivo (si clonas el repositorio, ten en cuenta de que no podrás añador tus commits)
 - Abre una terminal en la carpeta raíz de tu repositorio
@@ -56,7 +56,7 @@ _What do you need to install the software?_
         npm install
 
 
-#### Arrancar el proyecto ⚙️ / Starting the project ⚙️
+### Arrancar el proyecto ⚙️ / Starting the project ⚙️
 
 _Una vez hecho el paso anterior, hay que arrancar el proyecto cada vez que programes. Para ello, ejecuta el comando:_
 
@@ -77,7 +77,7 @@ Then you can see that:
 - A window will open in your pre-finished browser, which will show your website.
 - The files you will be working on are inside the src/ folder.
 
-#### Publicar el proyecto en GitHub Pages 📚 / Publish the project on GitHub Pages 📚
+### Publicar el proyecto en GitHub Pages 📚 / Publish the project on GitHub Pages 📚
 
 _Introducir el comando_
 
@@ -108,7 +108,7 @@ And then:
 
 - _Maitane Abad_ [Github](https://github.com/MaitaneAbad)
 
-### Contacto 📱 / Contact 📱
+## Contacto 📱 / Contact 📱
 
 <a href="https://twitter.com/maitaneabad" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="maitaneabad" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/maitaneabadconde/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/maitaneabadconde/" height="30" width="40" /></a>
