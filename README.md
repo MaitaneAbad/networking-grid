@@ -1,6 +1,8 @@
 <h1 align="center">Hi 👋, I'm Maitane Abad</h1>
-# Networking-grid.
-## Hackaton JOBMadrid
+#Networking-grid.
+
+##Hackaton JOBMadrid
+
 Este proyecto consiste en un portal de búsqueda con de distinta informacíon de distintas empresas. En el listado aparece su tamaño, nombre, año de fundación...
 
 ---
