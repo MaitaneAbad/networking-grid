@@ -1,0 +1,31 @@
+@import '../core/variables';
+
+.footer {
+  font-family: $font-family;
+  padding: 5px;
+  font-size: 12px;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-weight: 900;
+  opacity: 0.6;
+  background-color: rgba(95, 158, 160, 0.384);
+
+  &__name {
+    margin-left: 10px;
+    text-align: start;
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+  }
+  &__subtitle {
+    margin-left: 10px;
+    text-align: start;
+    grid-column: 2;
+    grid-row: 2;
+    text-transform: uppercase;
+  }
+}
