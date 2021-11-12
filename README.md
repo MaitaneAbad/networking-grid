@@ -2,9 +2,7 @@
 <h2>Networking-Grid</h2>
 
 <h3>HACKATON JOBMADRID</h3>
-
 Este proyecto consiste en un portal de búsqueda con de distinta informacíon de distintas empresas. En el listado aparece su tamaño, nombre, año de fundación...
-
 
 This project consists of a search portal with different information about different companies. The list shows their size, name, year of foundation...
 
@@ -13,7 +11,6 @@ Debido a un problema con las cors de la url del hackaton, el fetch no funciona s
 
 _Extensión_ [Descargar](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=es)
 
----
 
 Due to a problem with the hackathon url cors, the fetch does not work if you have browser security enabled. If you use the Google Chrome extension called `Allow CORS: Access-Control-Allow-Origin `
 
@@ -23,7 +20,6 @@ _Extension_ [Download](https://chrome.google.com/webstore/detail/allow-cors-acce
 
 Utilizando Codefactor ya que tenía que añadir la calidad del código, la calidad del código es: <a href="https://www.codefactor.io/repository/github/maitaneabad/networking-grid"><img src="https://www.codefactor.io/repository/github/maitaneabad/networking-grid/badge" alt="CodeFactor" /></a>
 
----
 
 Using Codefactor as I had to add the code quality, the code quality is: <a href="https://www.codefactor.io/repository/github/maitaneabad/networking-grid"><img src="https://www.codefactor.io/repository/github/maitaneabad/networking-grid/badge" alt="CodeFactor" /></a>
 
@@ -31,7 +27,6 @@ Using Codefactor as I had to add the code quality, the code quality is: <a href=
 
 Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
----
 
 These instructions will allow you to get a working copy of the project on your local machine for development and testing purposes.
 
@@ -41,7 +36,6 @@ _¿Que necesitas para instalar el software?_
 
     Necesitas tener instalado Node JS
 
----
 
 _What do you need to install the software?_
 
@@ -54,9 +48,6 @@ _What do you need to install the software?_
 - Instala las dependencias locales ejecutando en la terminal el comando:
 
         npm install
-
-
----
 
 - Download this repository in zip or clone the repository on your device (if you clone the repository, note that you won't be able to add your commits)
 - Open a terminal in your repository's root folder
@@ -76,7 +67,6 @@ A continuación puedes observar que:
 - Se abrirá una ventana en tu navegador pretederminado, que mostrará tu web.
 - Los ficheros sobre lo que trabajarás estan dentro de la carpeta src/
 
----
 
 _Once you have done the previous step, you have to start the project every time you program. To do this, run the command:_
 
@@ -99,7 +89,6 @@ Y a continuación:
 - Entra en la pestaña settings de tu repositorio
 - En el apartado de GitHub Pages activa la opción master branch/docs folder
 
----
 
 _Enter the command_
 
@@ -128,6 +117,5 @@ And then:
 
 Este proyecto está bajo la Licencia MIT License mira el archivo LICENSE para más detalles.
 
----
 
 This project is licensed under the MIT License see the LICENSE file for more details.
