@@ -5,12 +5,10 @@
 
 Este proyecto consiste en un portal de búsqueda con de distinta informacíon de distintas empresas. En el listado aparece su tamaño, nombre, año de fundación...
 
----
 
 This project consists of a search portal with different information about different companies. The list shows their size, name, year of foundation...
 
 ### Información importante ⚠️ / Important information ⚠️
-
 Debido a un problema con las cors de la url del hackaton, el fetch no funciona si tienes activada la seguridad del navegador. Si usas la extensión de Google Chrome llamada `Allow CORS: Access-Control-Allow-Origin `
 
 _Extensión_ [Descargar](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=es)
