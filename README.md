@@ -5,6 +5,7 @@
 # HACKATON JOBMADRID
 Este proyecto consiste en un portal de búsqueda con de distinta informacíon de distintas empresas. En el listado aparece su tamaño, nombre, año de fundación...
 
+
 This project consists of a search portal with different information about different companies. The list shows their size, name, year of foundation...
 
 # Información importante ⚠️ / Important information ⚠️
@@ -38,6 +39,7 @@ _¿Que necesitas para instalar el software?_
     Necesitas tener instalado Node JS
 
 
+
 _What do you need to install the software?_
 
     You need to have installed Node JS
@@ -49,6 +51,8 @@ _What do you need to install the software?_
 - Instala las dependencias locales ejecutando en la terminal el comando:
 
         npm install
+
+
 
 - Download this repository in zip or clone the repository on your device (if you clone the repository, note that you won't be able to add your commits)
 - Open a terminal in your repository's root folder
@@ -67,6 +71,8 @@ A continuación puedes observar que:
 
 - Se abrirá una ventana en tu navegador pretederminado, que mostrará tu web.
 - Los ficheros sobre lo que trabajarás estan dentro de la carpeta src/
+
+
 
 
 _Once you have done the previous step, you have to start the project every time you program. To do this, run the command:_
@@ -89,6 +95,8 @@ Y a continuación:
 - Sube tu repo a la carpeta docs/ que se te acaba de generar
 - Entra en la pestaña settings de tu repositorio
 - En el apartado de GitHub Pages activa la opción master branch/docs folder
+
+
 
 
 _Enter the command_
