@@ -2,11 +2,13 @@ import '../styles/App.scss';
 import { useState, useEffect } from 'react';
 import callToApi from '../services/callToApi';
 import CompanyList from './CompanyList';
-import Filters from './Filters';
+
+import Header from './Header';
 
 const App = () => {
   const [data, setData] = useState([]);
   const [searchIndustry, setSearchIndustry] = useState('all');
+  const [buttonHidden, setButtonHidden] = useState('hidden');
 
   useEffect(() => {
     callToApi().then((response) => {
@@ -36,15 +38,30 @@ const App = () => {
         return 0;
       }
     });
+  const handleShowAll = () => {
+    setSearchIndustry('all');
+  };
+  const handleShowFilter = () => {
+    if (buttonHidden === '') {
+      setButtonHidden('hidden');
+    } else {
+      setButtonHidden('');
+    }
+    handleShowAll();
+  };
   return (
     <>
-      <Filters
+      <Header
         data={data}
         handleForm={handleForm}
         searchIndustry={searchIndustry}
         handleSearchIndustry={handleSearchIndustry}
         handleReset={handleReset}
+        buttonHidden={buttonHidden}
+        handleShowFilter={handleShowFilter}
+        handleShowAll={handleShowAll}
       />
+
       <CompanyList data={filterIndustryData} />
     </>
   );
