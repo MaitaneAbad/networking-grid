@@ -1,66 +1,93 @@
+@import '../core/variables';
 .list {
+  font-family: $font-family;
   display: flex;
   flex-wrap: wrap;
   column-gap: 20px;
   justify-content: center;
   align-content: space-between;
-  margin: 10px auto;
+  margin: 10px 32px;
   &__card {
-    border: 1px red solid;
-    width: 60%;
+    border: 3px rgb(9, 43, 1) solid;
+    background-color: rgb(238, 234, 234);
     padding: 10px;
     display: flex;
     flex-direction: column;
-
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 190px;
+    border-radius: 10px;
+    transition: width 0.12s, box-shadow 0.25s;
+    &:hover {
+      box-shadow: 0 0 40px rgb(70, 71, 69);
+    }
+    @media (min-width: 768px) {
+    }
     &--item {
-      border: indigo 2px solid;
       &__name {
-        margin: 5px;
+        margin: 10px 5px;
         text-align: center;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 600;
+        overflow: auto;
+        white-space: pre-wrap;
       }
       &__year {
         text-align: end;
-        margin: 5px;
+        margin: 10px 5px 5px 5px;
       }
     }
 
     &--characteristics {
-      border: rgb(131, 4, 67) 2px solid;
+      display: flex;
+      flex-direction: column;
       &__industry {
         margin: 5px;
-        border: hotpink 2px solid;
+        border: 2px;
+        background-color: rgb(131, 129, 129);
+        color: azure;
         padding: 5px;
-        border-radius: 7%;
+        border-radius: 7px;
+        overflow: auto;
+        white-space: pre-wrap;
       }
       &__size {
-        text-align: end;
-        margin: 10px 5px;
-        border: hotpink 2px solid;
-        padding: 5px;
-        border-radius: 7%;
-        background-color: rgb(243, 171, 207);
-        &:hover {
-          background-color: rgb(236, 144, 190);
+        display: flex;
+        justify-content: end;
+        &--contain {
+          display: inline-block;
+          margin: 10px 5px;
+          border: rgb(30, 161, 59) 2px solid;
+          padding: 5px;
+          border-radius: 7px;
+          background-color: rgb(171, 243, 195);
+          &:hover {
+            background-color: rgb(165, 236, 144);
+          }
         }
       }
-      @media (min-width: 768px) {
-        display: flex;
-      }
     }
-
     &--link {
-      text-align: center;
-      padding: 2px;
-      border: 1px rgb(57, 92, 5) solid;
-      border-radius: 20%;
-      width: 35%;
-      margin: 5px auto;
-      background-color: rgb(68, 187, 64);
-      &:hover {
-        background-color: rgb(127, 236, 132);
-      }
-      &:visited {
-        background-color: rgb(151, 226, 155);
+      display: flex;
+      justify-content: end;
+      align-items: flex-end;
+
+      &__website {
+        text-align: center;
+        padding: 2px;
+        border: 1px rgb(57, 92, 5) solid;
+        border-radius: 20px;
+        width: 35%;
+        margin: 5px auto;
+        background-color: rgb(68, 187, 64);
+        align-items: flex-end;
+        &:hover {
+          background-color: rgb(127, 236, 132);
+        }
+        &:visited {
+          background-color: rgb(151, 226, 155);
+        }
       }
     }
   }

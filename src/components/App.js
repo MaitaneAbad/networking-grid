@@ -4,6 +4,7 @@ import callToApi from '../services/callToApi';
 import CompanyList from './CompanyList';
 
 import Header from './Header';
+import Footer from './Footer';
 
 const App = () => {
   const [data, setData] = useState([]);
@@ -61,8 +62,8 @@ const App = () => {
         handleShowFilter={handleShowFilter}
         handleShowAll={handleShowAll}
       />
-
       <CompanyList data={filterIndustryData} />
+      <Footer />
     </>
   );
 };
